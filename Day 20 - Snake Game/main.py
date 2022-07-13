@@ -1,37 +1,48 @@
-from turtle import Turtle, Screen
+from turtle import Screen
+from snake import Snake
+from food import Food
+from scoreboard import Scoreboard
 from time import sleep
+import math
 
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake Game")
+screen.tracer(0)
 
-snake_list = []
-x_pos = 0
-for sk in range(3):
-    new_cell = Turtle("square")
-    new_cell.color("white")
-    new_cell.penup()
-    new_cell.goto(x=x_pos, y=0)
-    x_pos -= 20
-    snake_list.append(new_cell)
+score = Scoreboard()
+snake = Snake()
+food = Food()
 
-screen.update()
+screen.listen()
+screen.onkey(snake.up, "w")
+screen.onkey(snake.down, "s")
+screen.onkey(snake.left, "a")
+screen.onkey(snake.right, "d")
 
 game_on = True
 while game_on:
+    snake.move()
+
+    # Detect Collision with Food
+    if snake.head.distance(food) < 10:
+        food.refresh()
+        snake.increase_size()
+        score.increment()
+
+    # Detect Collision with Wall
+    if abs(snake.head.xcor()) >= 300 or abs(snake.head.ycor() >= 300):
+        score.game_over()
+        game_on = False
+
+    # Detect Collision with Tail
+    for sk in snake.snake_list[1:]:
+        if snake.head.distance(sk) < 10:
+            game_on = False
+            score.game_over()
+
     screen.update()
     sleep(0.1)
-    for sk in snake_list:
-        sk.forward(20)
-
-
-
-
-
-
-
-
-
 
 screen.exitonclick()
