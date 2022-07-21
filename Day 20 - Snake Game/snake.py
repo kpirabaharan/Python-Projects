@@ -54,3 +54,11 @@ class Snake:
         new_cell.goto(position)
         self.snake_list.append(new_cell)
 
+    def reset(self):
+        for cell in self.snake_list:
+            cell.goto(1000, 1000)
+
+        self.snake_list.clear()
+        self.create_snake()
+        self.head = self.snake_list[0]
+

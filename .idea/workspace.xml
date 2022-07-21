@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d95066b4-948a-43a0-8dff-1228355cd729" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 21 - Pong_Game/Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 21 - Pong_Game/ball.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 21 - Pong_Game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 21 - Pong_Game/paddle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 21 - Pong_Game/score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 20 - Snake Game/highscore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 24 - Files-Directories-Paths/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 24 - Files-Directories-Paths/my_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20 - Snake Game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20 - Snake Game/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20 - Snake Game/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,35 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/keeshigan/Documents/100DaysofCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/keeshigan/Documents/100DaysofCode&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="etchasketch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100DaysofCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 19 - More GUI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 19 - More GUI/etchasketch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100DaysofCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +55,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 21 - Pong_Game/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100DaysofCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 24 - Files-Directories-Paths" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 24 - Files-Directories-Paths/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.snake" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.turtlerace" />
-        <item itemvalue="Python.etchasketch" />
       </list>
     </recent_temporary>
   </component>

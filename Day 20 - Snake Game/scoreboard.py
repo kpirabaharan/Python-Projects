@@ -8,20 +8,26 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
+        with open("highscore.txt") as hsfile:
+            self.highscore = int(hsfile.read())
         self.color("white")
         self.hideturtle()
         self.penup()
         self.goto(0, 260)
-        self.write(arg=f"Score: {self.score}", align="center", font=FONT_SCORE)
+        self.update_scoreboard()
+
+    def update_scoreboard(self):
+        self.clear()
+        self.write(arg=f"Score: {self.score} High Score: {self.highscore}", align="center", font=FONT_SCORE)
 
     def increment(self):
         self.score += 1
-        self.clear()
-        self.write(arg=f"Score: {self.score}", align="center", font=FONT_SCORE)
+        self.update_scoreboard()
 
-    def game_over(self):
-        super().__init__()
-        self.color("white")
-        self.hideturtle()
-        self.penup()
-        self.write(arg=f"GAME OVER", align="center", font=FONT_GAMEOVER)
+    def reset(self):
+        if self.score > self.highscore:
+            self.highscore = self.score
+            with open("highscore.txt", mode="w") as hsfile:
+                hsfile.write(str(self.highscore))
+        self.score = 0
+        self.update_scoreboard()
