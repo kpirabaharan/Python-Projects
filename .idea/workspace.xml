@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d95066b4-948a-43a0-8dff-1228355cd729" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 20 - Snake Game/highscore.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 24 - Files-Directories-Paths/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 24 - Files-Directories-Paths/my_file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20 - Snake Game/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20 - Snake Game/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20 - Snake Game/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +32,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/keeshigan/Documents/100DaysofCode&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/keeshigan/Documents/DataScience&quot;
   }
 }</component>
   <component name="RunManager" selected="Python.main (3)">
